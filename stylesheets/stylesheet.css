@@ -327,21 +327,64 @@ footer ul {
 }
 
 footer ul li {
-  color: #222222;
   font-size: 14px;
-  display: inline;
+  display: inline-block;
 }
 
-footer ul li a img {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  border: none;
+.sns {
   width: 48px;
   height: 48px;
-  margin-top: 0;
-  margin-bottom: 0;
+  display: block;
 }
+
+.email {
+  background: url('../images/sns_icons/email-gray.png');
+}
+
+.email:hover {
+  background: url('../images/sns_icons/email.png');
+}
+
+.twitter {
+  background: url('../images/sns_icons/twitter-gray.png');
+}
+
+.twitter:hover {
+  background: url('../images/sns_icons/twitter.png');
+}
+
+.gplus {
+  background: url('../images/sns_icons/googleplus-gray.png');
+}
+
+.gplus:hover {
+  background: url('../images/sns_icons/googleplus.png');
+}
+
+.flickr {
+  background: url('../images/sns_icons/flickr-gray.png');
+}
+
+.flickr:hover {
+  background: url('../images/sns_icons/flickr.png');
+}
+
+.github {
+  background: url('../images/sns_icons/github-gray.png');
+}
+
+.github:hover {
+  background: url('../images/sns_icons/github.png');
+}
+
+.rss {
+  background: url('../images/sns_icons/rss-gray.png');
+}
+
+.rss:hover {
+  background: url('../images/sns_icons/rss.png');
+}
+
 
 /*******************************************************************************
 Full-Width Styles
