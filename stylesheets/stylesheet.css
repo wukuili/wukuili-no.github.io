@@ -65,6 +65,27 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/**
+ * Just to pre load the images for lower connection
+ */
+#preloadedImages {
+    width: 0px;
+    height: 0px;
+    display: inline;
+    background-image: url('images/sns_icons/email-gray.png');
+    background-image: url('images/sns_icons/email.png');
+    background-image: url('images/sns_icons/twitter-gray.png');
+    background-image: url('images/sns_icons/twitter.png');
+    background-image: url('images/sns_icons/googleplus-gray.png');
+    background-image: url('images/sns_icons/googleplus.png');
+    background-image: url('images/sns_icons/flickr-gray.png');
+    background-image: url('images/sns_icons/flickr.png');
+    background-image: url('images/sns_icons/github-gray.png');
+    background-image: url('images/sns_icons/github.png');
+    background-image: url('images/sns_icons/rss-gray.png');
+    background-image: url('images/sns_icons/rss.png');
+  }
+
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
