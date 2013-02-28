@@ -316,12 +316,14 @@ ul .active a:focus {
 
 footer div {
   color: #ccc;
+  text-align: center;
 }
 
 footer ul {
   margin-right: auto;
   margin-left: auto;
   list-style: none;
+  text-align: center;
 }
 
 footer ul li {
@@ -435,7 +437,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: rgb(94, 94, 94)
+  background: #212121;
 }
 
 
