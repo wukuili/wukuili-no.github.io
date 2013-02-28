@@ -314,6 +314,10 @@ ul .active a:focus {
 }
 */
 
+footer div {
+  color: #ccc;
+}
+
 footer ul {
   margin-right: auto;
   margin-left: auto;
@@ -324,6 +328,17 @@ footer ul li {
   color: #fff;
   font-size: 14px;
   display: inline;
+}
+
+footer ul li a img {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  width: 48px;
+  height: 48px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*******************************************************************************
