@@ -322,7 +322,7 @@ footer ul {
 
 footer ul li {
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   display: inline;
 }
 
@@ -475,10 +475,6 @@ Small Device Styles
     min-width: 320px;
     max-width: 480px;
     font-size: 11px;
-  }
-
-  footer ul li {
-    font-size: 12px;
   }
 
 }
