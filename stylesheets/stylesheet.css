@@ -262,6 +262,46 @@ img {
   max-width: 100%;
 }
 
+nav ul {
+  margin-top: 20px;
+  list-style: none;
+  float: right;
+}
+
+nav ul li {
+  font-size: 20px;
+  display: inline;
+}
+
+nav ul li a {
+  padding: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+nav ul li a {
+  color: #ffffff;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #0088cc;
+}
+
+/*
+ul .active a,
+ul .active a:hover,
+ul .active a:focus {
+  color: #ffffff;
+  background-color: #0088cc;
+}
+*/
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
@@ -275,21 +315,6 @@ Full-Width Styles
   max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
-}
-
-#forkme_banner {
-  display: block;
-  position: absolute;
-  top:0;
-  right: 10px;
-  z-index: 10;
-  padding: 10px 50px 10px 10px;
-  color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
-  font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
 }
 
 #header_wrap {
