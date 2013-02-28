@@ -314,6 +314,18 @@ ul .active a:focus {
 }
 */
 
+footer ul {
+  margin-right: auto;
+  margin-left: auto;
+  list-style: none;
+}
+
+footer ul li {
+  color: #fff;
+  font-size: 18px;
+  display: inline;
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
