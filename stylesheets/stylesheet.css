@@ -269,7 +269,7 @@ nav ul {
 }
 
 nav ul li {
-  font-size: 20px;
+  font-size: 21px;
   display: inline;
 }
 
@@ -285,13 +285,12 @@ nav ul li a {
 }
 
 nav ul li a {
-  color: #181b1e;
+  color: #ffffff;
 }
 
 nav ul li a:hover,
 nav ul li a:focus {
-  color: #f7f7f7;
-  background-color: #3E7FA0;
+  background-color: #0088cc;
 }
 
 .banner_logo {
@@ -299,8 +298,8 @@ nav ul li a:focus {
   -moz-box-shadow: none;
   box-shadow: none;
   border: none;
-  width: 150px;
-  height: 60px;
+  width: 200px;
+  height: 75px;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 10px;
@@ -331,12 +330,12 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #f3f1f3;
-  background: -moz-linear-gradient(top, #f3f1f3, #b6b7b7);
-  background: -webkit-linear-gradient(top, #f3f1f3, #b6b7b7);
-  background: -ms-linear-gradient(top, #f3f1f3, #b6b7b7);
-  background: -o-linear-gradient(top, #f3f1f3, #b6b7b7);
-  background: linear-gradient(top, #f3f1f3, #b6b7b7);
+  background: #212121;
+  background: -moz-linear-gradient(top, #373737, #212121);
+  background: -webkit-linear-gradient(top, #373737, #212121);
+  background: -ms-linear-gradient(top, #373737, #212121);
+  background: -o-linear-gradient(top, #373737, #212121);
+  background: linear-gradient(top, #373737, #212121);
 }
 
 #header_wrap .inner {
