@@ -86,6 +86,7 @@ h2 {
 
 h3 {
   font-size: 24px;
+  clear: both;
 }
 
 h4 {
@@ -522,6 +523,23 @@ footer ul li {
   background: url('../images/sns_icons/rss.png');
 }
 
+.officeDiv {
+}
+
+.office_img {
+  width: 40%;
+  height: 200px;
+  float: left;
+}
+
+#map_canvas {
+    width:50%;
+    height:200px;
+    margin:15px;
+    margin-left: 20px;
+    float: left;
+    border: 1px solid #ebebeb;
+}
 
 /*******************************************************************************
 Full-Width Styles
