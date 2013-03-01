@@ -71,6 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
+  padding-top: 15px;
 }
 
 h1 {
@@ -539,6 +540,29 @@ footer ul li {
     margin-left: 20px;
     float: left;
     border: 1px solid #ebebeb;
+}
+
+.benefit-list {
+  list-style: none;
+  margin: 30px;
+}
+
+.benefit-list li {
+  margin: 10px;
+  list-style: none;
+  padding-left: 20px;
+  background-image: url(../images/tick.png);
+  background-repeat: no-repeat;
+}
+
+.occupation {
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+.occupation ul header {
+  font-size: 18px;
+  margin: 5px;
 }
 
 /*******************************************************************************
