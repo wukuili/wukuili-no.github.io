@@ -68,7 +68,7 @@ body {
 /**
  * Just to pre load the images for lower connection
  */
-#preloadedImages {
+#preloaded_images {
     width: 0px;
     height: 0px;
     display: inline;
