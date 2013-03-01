@@ -352,6 +352,15 @@ footer ul li {
   display: inline-block;
 }
 
+.image_holder {
+  text-align: center;
+  margin: 20px;
+}
+
+.big_image {
+  width: 98%;
+}
+
 .sns {
   width: 48px;
   height: 48px;
