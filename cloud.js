@@ -36,6 +36,7 @@ window.onload=function ()
 		oTag.offsetHeight=aA[i].offsetHeight;
 
 		mcList.push(oTag);
+        aA[i].style.color=randomcolor();
 	}
 
 	sineCosine( 0,0,0 );
@@ -129,7 +130,7 @@ function randomcolor(){
     if(str.length<6){
         str="0"+str;
     }
-    return str;
+    return '#'+str;
 }
 function depthSort()
 {
