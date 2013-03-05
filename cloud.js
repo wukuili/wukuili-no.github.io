@@ -1,5 +1,4 @@
-
-var radius = 120;
+var radius = 240;
 var dtr = Math.PI/180;
 var d=300;
 
@@ -8,7 +7,7 @@ var active = false;
 var lasta = 1;
 var lastb = 1;
 var distr = true;
-var tspeed=10;
+var tspeed=20;
 var size=250;
 
 var mouseX=0;
