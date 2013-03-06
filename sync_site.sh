@@ -4,7 +4,7 @@ echo "Pulling from repo"
 git pull
 
 echo "Asking jerk for a favour"
-ruby $JERK_PATH/jerk.rb -m $MARKDOWN_PATH -t $TEMPLATE_PATH -d .
+ruby "$JERK_PATH/jerk.rb" -m "$MARKDOWN_PATH" -t "$TEMPLATE_PATH" -d .
 
 echo $1
 
