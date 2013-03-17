@@ -554,7 +554,7 @@ footer ul li {
 .benefit-list li {
   margin: 10px;
   list-style: none;
-  padding-left: 20px;
+  padding-left: 25px;
   background-image: url(../images/tick.png);
   background-repeat: no-repeat;
 }
@@ -562,10 +562,11 @@ footer ul li {
 .occupation {
   margin: 20px;
   margin-bottom: 30px;
+  font-size: 16px;
 }
 
 .occupation ul header {
-  font-size: 18px;
+  font-size: 16px;
   margin: 5px;
 }
 
