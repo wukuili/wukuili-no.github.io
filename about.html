@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="海达网畅 : " />
+<head>
+  <meta charset='utf-8' />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+  <meta name="description" content="海达网畅 : " />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/sns.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/sns.css">
 
-    <script src="https://maps.google.com/maps/api/js?key=AIzaSyBdmKUGYS9XHMyjAx7A8Tfa75Er-vFnN0s&sensor=true"></script>
-    <script>
-      function initialize() {
-        if (document.getElementById("map_canvas")) {
-          var point = new google.maps.LatLng(39.975196, 116.348597),
+  <script src="https://maps.google.com/maps/api/js?key=AIzaSyBdmKUGYS9XHMyjAx7A8Tfa75Er-vFnN0s&sensor=true"></script>
+  <script>
+  function initialize() {
+    if (document.getElementById("map_canvas")) {
+      var point = new google.maps.LatLng(39.975196, 116.348597),
           //Settings for the map
           myOptions = {
-              zoom: 15,
-              center: point,
-              mapTypeId: google.maps.MapTypeId.ROADMAP
+            zoom: 15,
+            center: point,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
           },
 
           //Finding the div we want the map to be in
@@ -28,22 +28,22 @@
 
           //
           marker = new google.maps.Marker({
-              position: point,
-              map: map,
-              title: "海达网畅在这里"
+            position: point,
+            map: map,
+            title: "海达网畅在这里"
           });
         }
       }
-    </script>
+      </script>
 
-    <title>关于我们 - 海达网畅</title>
-  </head>
+      <title>关于我们 - 海达网畅</title>
+    </head>
 
-  <body onload="initialize()">
-    <span class="preloaded_images"></span>
+    <body onload="initialize()">
+      <span class="preloaded_images"></span>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
+      <!-- HEADER -->
+      <div id="header_wrap" class="outer">
         <header class="inner">
           <nav>
             <ul>
@@ -51,18 +51,18 @@
               <li><a href="/join.html">加入我们</a></li>
 <!--
               <li><a href="/blogs/">官方博客</a></li>
--->
-            </ul>
-          </nav>
-          <!-- <h1 id="project_title">海达网畅</h1> -->
-          <a href="/"><img class="banner_logo" src="images/logo_dark.svg"/></a>
-        </header>
+            -->
+          </ul>
+        </nav>
+        <!-- <h1 id="project_title">海达网畅</h1> -->
+        <a href="/"><img class="banner_logo" src="images/logo_dark.svg"/></a>
+      </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-
+        
 
 
 <h3>海达网畅</h3>
@@ -97,5 +97,16 @@
         <div>&copy;  2013 Hadventure.com</div>
       </footer>
     </div>
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-39109488-3', 'hadventure.com');
+    ga('send', 'pageview');
+
+    </script>
   </body>
-</html>
+  </html>
