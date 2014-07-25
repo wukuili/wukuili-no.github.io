@@ -209,10 +209,10 @@
 
 .c-service{
 	width: 100%;
-	padding: 5px 10px;
+	padding:5px 0px 5px 0px;
 	background-color: #E1E2E2;
-	margin-bottom: 40px;
-	margin-left:20px;
+	margin-bottom: 35px;
+	margin-left:5px;
 	color: #898A8A;
 	font-size: 12px;
 	line-height:12px;
@@ -644,34 +644,34 @@
 	margin:60px 40px 40px 40px;}
 	
 .Paging dl{
-	color:#FFF;
+	color:#f2945d;
 	float:left;
 	width:100%;}
 	
 .Paging dl dt{
 	float:left;
-	background-color:#99C841;
-	color:#FFF;
+	background-color:#f2945d;
+	color:#fff;
 	padding:10px 20px;
 	margin-right:10px;}	
 	
 .Paging dl dt q{
-	color:#FFF;	
+	color:#fff;	
 }
 	
 .Paging dl dt:hover{
 	float:left;
-	color:#FFF;
-	background-color:#afd25e;
+	color:#f2945d;
+	background-color:#f2945d;
 	transition-duration: 0.5s;
--moz-transition-duration: 0.5s; /* Firefox 4 */
--webkit-transition-duration: 0.5s; /* Safari 和 Chrome */
--o-transition-duration: 0.5s; /* Opera */}		
+	-moz-transition-duration: 0.5s; /* Firefox 4 */
+	-webkit-transition-duration: 0.5s; /* Safari 和 Chrome */
+	-o-transition-duration: 0.5s; /* Opera */}		
 	
 .Paging dl dd{
 	float:left;
 	background-color:#fff;
-	color:#898A8A;
+	color:#f2945d;
 	padding:10px 10px;
 	margin-right:10px;
 	}	
@@ -679,7 +679,7 @@
 	
 .Paging dl dd:hover{
 	float:left;
-	background-color:#afd25e;
+	background-color:#f2945d;
 	color:#fff;
 	}		
 
@@ -764,4 +764,16 @@
 	color: #4997d2;
 	padding-left: 8px;
 	-webkit-transition-duration: 0.3s;
-}	.contact_service_btn{	padding: 2% 8%;	background-color: #898A8A;	margin-bottom: 8%;	color: #FFF;	font-size: 0.8em;	behavior: url(pie.htc);	margin-left:20px; }
+}	.contact_service_btn{	padding: 2% 8%;	background-color: #898A8A;	margin-bottom: 8%;	color: #FFF;	font-size: 0.8em;	behavior: url(pie.htc);	margin-left:20px; }.contact_send_new {
+	float: left;
+	width: 280px;  margin-top:0px;}
+.contact_send_new h2{font-size: 16px;
+	color: #595757;
+	float: left;
+	width: 100%;
+	font-weight:bold;
+	font-style:normal;
+
+}
+.contact_send_btn{margin-left:63px; font-size: 14px;
+}
