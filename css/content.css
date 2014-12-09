@@ -49,11 +49,22 @@
 	margin:40px;
 	width:920px;
 	}	
+.contact_us1{
+	padding-top:40px ;
+	margin:0 auto;
+	width:500px;
+	}
+.contact_us2{
+	padding-top:40px ;
+	margin:0 auto;
+	width:600px;
+	margin-top:40px;
+	}	
 	
 .contact_us_map{
 	float: left;
-	width: 600px;
-	margin-right: 40px;
+	width: 500px;
+	margin-bottom:20px;
 	}
 
 .contact_us_map h1{
@@ -61,9 +72,9 @@
 	color:#4997D2;
 	font-weight:500;
 	float:left;
-	padding-top:40px;
+	padding-top:20px;
 	width:100%;
-	padding-bottom:10px;
+	padding-bottom:5px;
 	}
 
 .contact_us_map h3{
@@ -71,7 +82,7 @@
 	color: #3070B8;
 	font-weight: bold;
 	float: left;
-	padding-top: 80px;
+	padding-top: 40px;
 	width: 100%;
 	padding-bottom: 40px;
 	}
@@ -173,14 +184,15 @@
 
 .contact_send {
 	float: left;
-	width: 280px;  margin-top:317px;}
+	width: 280px;
+	margin-top:0px;
+	}
 .contact_send h2{font-size: 16px;
 	color: #595757;
 	float: left;
 	width: 100%;
 	font-weight:bold;
 	font-style:normal;
-
 }
 
 .contact_send_send {
@@ -209,19 +221,19 @@
 
 .c-service{
 	width: 100%;
-	padding: 5px 10px;
+	padding:5px 0px 5px 0px;
 	background-color: #E1E2E2;
-	margin-bottom: 40px;
-	margin-left:20px;
+	margin-bottom: 35px;
+	margin-left:5px;
 	color: #898A8A;
-	font-size: 12px;
-	line-height:12px;
+	font-size: 15px;
+	line-height:15px;
 	overflow: auto;
 	behavior: url(pie.htc);
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	border: 1px solid #898A8A;
+	border: 1px solid #898900;
 }
 
 .talent{
@@ -260,30 +272,43 @@
 .platform{
 	float:left;
 	width:1000px;
-	}	
+	-moz-box-shadow:0px 0px 20px #B8B8B8; 
+	-webkit-box-shadow:0px 0px 20px #B8B8B8;
+	box-shadow:0px 0px 20px #B8B8B8;
+	}
+
 	
 .platform_logo{
-	width:300px;
+	width:1000px;
 	float:left;
-	background-image:url(../images/logo_bg.png);
+	background-image:url(../images/logo_bg.jpg);
 	margin-right:40px;
 	}	
 	
 .platform_right{
-	float: left;
+	float: right;
 	width: 660px;
 	padding: 40px 0;
-	background-color: #4997D2;
+	
 	height: 257px;
 }	
+.platform_right h1{
+	color:#fff;
+	}
+.logo_link{
+	width:200px;
+	margin-top:130px;
+	margin-left:100px;
+	}
 	
 .platform_right_content{
 	float:left;
 	width:580px;
-	padding:40px 40px 0 40px;}	
+	padding:0 40px;;
+	margin-top:20px;}	
 
 .platform_right_content p{
-	color:#FFF;
+	color:#fff;
 	font-size:12px;
 	line-height:24px;
 	text-indent:2em;
@@ -292,18 +317,20 @@
 .content_name1{
 	float:left;
 	width:100%;
-	background-color:#fff;
+	
 	}	
-
-.content_name1 h1{
+ .content_name1 h1{
 	font-size:20px;
-	font-weight:500;
+
 	line-height:20px;
+s
+
 	color:#fff;
-	border-left:solid 5px #fff;
-	padding:0 40px;
-	float:left;
-	background-color:#4997D2;
+	margin-left:230px;
+		
+	margin-top:40px;
+	margin-bottom:10px;
+	
 	}
 	
 .content1_ptys{
@@ -326,7 +353,7 @@
 	background-color:#EEEFEF;}	
 	
 .content1_ptys ul li a:hover{
-	background-color:#4997d2;
+	
 	transition-duration: 0.5s;
 -moz-transition-duration: 0.5s; /* Firefox 4 */
 -webkit-transition-duration: 0.5s; /* Safari 和 Chrome */
@@ -372,25 +399,48 @@
 .content2_box_ptjj{
 	float:left;
 	padding:40px;
-	background-color:#4997D2;
+	background-color:#fff;
 	width:920px;
+	-moz-box-shadow:0px 0px 20px #B8B8B8; 
+	-webkit-box-shadow:0px 0px 20px #B8B8B8;
+	 box-shadow:0px 0px 20px #B8B8B8;
+	}
+.content2_l{
+	margin-left:40px;
+	}
+
+
+.content8{
+	margin-top:50px;
 	}
 	
-.content2_box_ptjj img{
+.content8 img{
 	float:left;
+	margin-top:50px;
 	width:300px;
+	height:300px;
+	-moz-box-shadow:0px 0px 20px #B8B8B8; 
+	-webkit-box-shadow:0px 0px 20px #B8B8B8;
+	 box-shadow:0px 0px 20px #B8B8B8;"
 	}	
 	
 .content2_box_ptjj_text{
 	float:left;
-	width:580px;
 	margin-left:40px;
+	width:660px;
+	height:300px;
+	margin-top:50px;
+	background-color:#FFF;
+	-moz-box-shadow:0px 0px 20px #B8B8B8; 
+	-webkit-box-shadow:0px 0px 20px #B8B8B8;
+	 box-shadow:0px 0px 20px #B8B8B8;"
 	}	
 	
 .content2_box_ptjj_text p{
-	color:#fff;
+	color:#666;
 	float:left;
 	width:580px;
+	text-indent:2em;
 	}	
 	
 .content_right_news1{
@@ -437,7 +487,7 @@
 	
 .news_box{
 	height: 240px;
-	background: rgba(255,255,255,0.6);
+	background: rgba(255,255,255,0.8);
 	padding: 40px;
 	width: 920px;
 	margin: 0px auto;
@@ -487,12 +537,12 @@
 .box2{
 	float: left;
 	padding: 40px 0 0 0;
-	width: 750px;
+	width: 1000px;
 	}
 	
 .content_left1{
 	background-color: #FFF;
-	width: 750px;
+	width: 1000px;
 	float: left;
 }
 
@@ -541,11 +591,11 @@
 
 .content_left1_text strong{
 	float:left;
-	color:#99C841;}	
+	color:#777777;}	
 	
 .content_left1_text strong a{
 	float:left;
-	color:#99c841;}	
+	color:#777777;}	
 	
 .content_left1_text strong a:hover{
 	float:left;
@@ -572,8 +622,9 @@
 .line{
 	border-bottom: dashed 1px #9F9FA0;
 	float:left;
-	margin:0 40px;
-	width:670px;}
+	margin:40px 40px;
+	width:680px;
+	}
 	
 .content_right1{
 	background-color: #FFF;
@@ -644,34 +695,34 @@
 	margin:60px 40px 40px 40px;}
 	
 .Paging dl{
-	color:#FFF;
+	color:#f2945d;
 	float:left;
 	width:100%;}
 	
 .Paging dl dt{
 	float:left;
-	background-color:#99C841;
-	color:#FFF;
+	background-color:#f2945d;
+	color:#fff;
 	padding:10px 20px;
 	margin-right:10px;}	
 	
 .Paging dl dt q{
-	color:#FFF;	
+	color:#fff;	
 }
 	
 .Paging dl dt:hover{
 	float:left;
-	color:#FFF;
-	background-color:#afd25e;
+	color:#f2945d;
+	background-color:#f2945d;
 	transition-duration: 0.5s;
--moz-transition-duration: 0.5s; /* Firefox 4 */
--webkit-transition-duration: 0.5s; /* Safari 和 Chrome */
--o-transition-duration: 0.5s; /* Opera */}		
+	-moz-transition-duration: 0.5s; /* Firefox 4 */
+	-webkit-transition-duration: 0.5s; /* Safari 和 Chrome */
+	-o-transition-duration: 0.5s; /* Opera */}		
 	
 .Paging dl dd{
 	float:left;
 	background-color:#fff;
-	color:#898A8A;
+	color:#f2945d;
 	padding:10px 10px;
 	margin-right:10px;
 	}	
@@ -679,7 +730,7 @@
 	
 .Paging dl dd:hover{
 	float:left;
-	background-color:#afd25e;
+	background-color:#f2945d;
 	color:#fff;
 	}		
 
@@ -690,6 +741,7 @@
 	color:#898A8A;
 	font-size:12px;
 	line-height:24px;
+	margin-left:150px;
 	}
 	
 .content_content img{
@@ -764,4 +816,73 @@
 	color: #4997d2;
 	padding-left: 8px;
 	-webkit-transition-duration: 0.3s;
-}	.contact_service_btn{	padding: 2% 8%;	background-color: #898A8A;	margin-bottom: 8%;	color: #FFF;	font-size: 0.8em;	behavior: url(pie.htc);	margin-left:20px; }
+}	.contact_service_btn{	padding: 2% 8%;	background-color: #898A8A;	margin-bottom: 8%;	color: #FFF;	font-size: 0.8em;	behavior: url(pie.htc);	margin-left:20px; }.contact_send_new {
+	float: left;
+	width: 280px;  margin-top:0px;}
+.contact_send_new h2{font-size: 16px;
+	color: #595757;
+	float: left;
+	width: 100%;
+	font-weight:bold;
+	font-style:normal;
+
+}
+.contact_send_btn{margin-left:40px; font-size: 12px;
+width:80px;text-align:center;}
+
+
+
+
+
+.contact_us_map_one{
+	float: left;
+	width: 200px;
+	padding-left:90px;
+	}
+
+.contact_us_map_one p{
+	padding:5px 0px 15px 15px;
+	font-size: 13px;
+	color: #898A8A;
+	float: left;
+	width: 100%;
+	text-indent:2em;
+	}
+
+.contact_us_map_one em{
+	font-size: 25px;
+	color: #595757;
+	float: left;
+	width: 100%;
+	font-weight:bold;
+	font-style:normal;
+	padding-bottom:20px;
+}
+.zhaopinpicture{
+	padding-top:55px;
+	padding-left:35px;
+}
+.mail_to1{
+	font-size: 45px;
+	color: #000000;
+}
+.mail_to2{
+	font-size: 30px;
+	color: #0000FF;
+}
+.hehe{
+	float: left;
+	width: 1000px;
+	margin-left: 0px;
+	margin-top:10px;
+}
+.hehe1{
+	float: left;
+	width: 280px;
+	margin-top:0px;
+}
+.hehe2{
+		float: left;
+	width: 550px;
+	margin-top:140px;
+}

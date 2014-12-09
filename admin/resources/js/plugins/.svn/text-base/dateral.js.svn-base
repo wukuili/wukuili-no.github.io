@@ -1,0 +1,138 @@
+/**
+ * 限制输入框只能输入符合条件格式的日期数据，必须为yyyy-mm-dd格式
+ * 
+ * @author heshenmi
+ * 
+ * @example $("#amount").dateral()
+ */
+$.fn.dateral = function() {
+	var args = arguments;
+	var json = typeof (args[0]) == "object";
+	$(this).css("ime-mode", "disabled");
+	var keys = new Array(8, 9, 35, 36, 37, 38, 39, 40, 46);
+	this.bind(
+					"keydown",
+					function(e) {
+						e = window.event || e;
+						var code = e.which || e.keyCode;
+						if (e.shiftKey) {
+							return false;
+						}
+						var idx = Array.indexOf(keys, code);
+						if (idx != -1) {
+							return true;
+						}
+						var value = this.value;
+
+						if (code == 189 || code == 109) {
+							if (value.length < 2
+									|| value.lastIndexOf("-") == value.length - 1) {
+								return false;
+							}
+							var splitArrays = new Array;
+							splitArrays = value.split("-");
+							if (splitArrays.length >= 3) {
+								return false;
+							}
+							if (splitArrays.length == 2) {
+								if (splitArrays[1].length != 2)
+									return false;
+							}
+							if (splitArrays.length == 1) {
+								if (splitArrays[0].length != 2
+										&& splitArrays[0].length != 4)
+									return false;
+							}
+							return true;
+
+						} else {
+							if ((code >= 48 && code <= 57) || (code >= 96 && code <= 105)) {
+								var splitArrays = new Array;
+								splitArrays = value.split("-");
+
+								if (splitArrays.length >= 3) {
+									// 说明第三个数已经超过两位数了，不能再输入
+									if (splitArrays[2].length > 1) {
+										this.value = "";
+										return true;
+									}
+									if (splitArrays[2].length == 1) {
+										if (code >= 96)
+											code = code - 48;
+										if (splitArrays[0].length == 2) {
+											value = "20" + value;
+											this.value = value;
+										}
+										if (!isDate(value
+												+ String.fromCharCode(code))) {
+											this.value = "";
+											return false;
+										}
+										return true;
+									}
+								}
+								if (splitArrays.length == 2) {
+									if (splitArrays[1].length == 2) {
+										this.value = this.value + "-";
+										return true;
+									}
+									return true;
+								}
+								if (splitArrays.length == 1) {
+									if (splitArrays[0].length == 4) {
+										this.value = this.value + "-";
+										return true;
+									}
+									return true;
+								}
+								return true;
+							}
+							return false;
+						}
+					});
+	this.bind("blur", function() {
+		if(this.value.split("-").length == 2){
+			this.value = this.value + "-01";
+		}
+		if (!isDate(this.value)) {
+			this.value = "";
+		}
+	});
+	this.bind("paste", function() {
+		if(this.value.split("-").length == 2){
+			this.value = this.value + "-01";
+		}
+		if (!isDate(this.value)) {
+			this.value = "";
+		}
+		return false;
+	});
+	this.bind("dragenter", function() {
+		return false;
+	});
+	var getSelection = function() {
+		if (window.getSelection) {
+			return window.getSelection();
+		}
+		if (document.selection) {
+			return document.selection.createRange().text;
+		}
+		return "";
+	};
+
+	/**
+	 * 判断输入框中输入的日期格式为yyyy-mm-dd和正确的日期
+	 */
+
+	var isDate = function(mystring) {
+		var ereg = /^(\d{1,4})(-|\/)(\d{1,2})(-|\/)(\d{1,2})$/;
+		var r = mystring.match(ereg);
+		if (r == null) {
+			return false;
+		}
+		var d = new Date(r[1], r[3] - 1, r[5]);
+		var result = (d.getFullYear() == r[1] && r[1] > 1900 && (d.getMonth() + 1) == r[3] && d
+				.getDate() == r[5]);
+		return result;
+	};
+};

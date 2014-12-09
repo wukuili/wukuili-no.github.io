@@ -140,8 +140,11 @@ p{
 	background-color:#FFF;}
 
 .head_top{
+	
 	background-image:url('../images/head_bg.jpg');
-	background-repeat:repeat
+	background-repeat:repeat;
+	margin:0 auto;
+	
 }
 .head_top .left{
 	padding:4px;
@@ -173,6 +176,7 @@ p{
 
 /**head下面部分开始**/
 .head_bottom{
+	
 	background: #fff;
 	border-bottom: #3070b8 2px solid;
 	box-shadow: 0 0 5px #33A865;
@@ -203,16 +207,54 @@ p{
 .box{
 	float: left;
 	padding: 40px 0 0 0;
+	width: 1000px;
+}
+.box1{
+	float: left;
+	padding: 35px 0 0 0;
 	width: 350px;
 }
-
 .content{
+	position:relative;left:0px;top:-40px;
 	width:1000px;
-	margin:40px auto;
+	margin:0 auto;
 
 }
+.content_s{
+	position:relative;left:0px;top:-40px;
+	width:1000px;
+	margin:0 auto;
+	margin-top:100px;
 
+}
+.web_link{
+	width:100px;
+	hegiht:100px;
+	margin-bottom:10px;
+	float:left;
+	}
+ 
+.Recruitment {
+
+	width:500px;
+}
+ 
+.Recruitment a{
+	font-size:18px;
+	color:#ccc;
+	line-height:70px;
+}
+.Recruitment a:hover{
+
+	color:#3070b8;
+	
+}
 .content_left{
+	background-color: #FFF;
+	width: 1000px;
+	float: left;
+}
+.content_left01{
 	background-color: #FFF;
 	width: 350px;
 	float: left;
@@ -243,7 +285,17 @@ p{
 	float:left;
 	background-color:#FFF;
 	}
-	
+.content_img{
+	margin:40px 40px;
+	margin-top:75px;
+	text-indent:2em;
+	}
+.content_name_img1{
+	margin-right:50px;
+	padding-bottom: 10px;
+	float: left;
+	width: 329px;
+}
 .content_name_img{
 	padding: 40px;
 	float: left;
@@ -253,13 +305,19 @@ p{
 .content_name_img img{
 	width:100%;
 	height:auto;
+	
 	}	
 
 .content_name_text{
 	float: left;
-	margin: 0 40px;
+	margin:0 auto;
+	width: 960px;
+}	
+.content_name_text1{
+	float: left;
+	margin:0 40px;
 	width: 270px;
-}		
+}	
 	
 .content_name_text p{
 	font-size: 12px;
@@ -378,6 +436,13 @@ p{
 	background-color: #FFF;
 	float: left;
 	}
+.content6{
+	width: 1000px;
+	margin: 40px auto 0 auto;
+	background-color: #FFF;
+	float: left;
+	margin-left:-200px;
+	}
 
 .content1_box{
 	background-color: #FFFFFF;
@@ -401,7 +466,8 @@ p{
 	margin:40px 0;}	
 	
 .nav{
-	background-color:#99c841;
+	background-color:#f2945d;
+	border-radius:8px;
 	padding:10px 20px;
 	float:left;
 	margin-top:20px;
@@ -410,7 +476,7 @@ p{
 	font-size:12px;
 	}	
 a:hover .nav {
-	background-color:#afd25e;
+	background-color:#d6d6d6;
 	  transition-duration: 0.5s;
 -moz-transition-duration: 0.5s; /* Firefox 4 */
 -webkit-transition-duration: 0.5s; /* Safari 和 Chrome */
@@ -420,6 +486,7 @@ a:hover .nav {
 .contact_ptys{
 	float: left;
 	width: 170px;
+	padding-bottom:20px;
 	}	
 	
 .contact_ptys h1{
@@ -437,13 +504,12 @@ a:hover .nav {
 	width:190px;}
 
 .contact_ptys ul li{
-	background-color:#4997d2;
-	text-align:center;
-	padding:10px 0;
+		text-align:center;
+	padding:0px 0;
 	float:left;
 	margin-right:20px;
 	width:75px;
-	margin-top:20px;
+	margin-top:5px;
 	}	
 
 .contact_ptys ul li a{
@@ -458,10 +524,10 @@ a:hover .nav {
 
 .contact_ptys ul li a:hover{color:#fff}
 		
-.contact_ptys .a4 a{font-size:12px;overflow:hidden;width:75px; float:left;display:none}	
+.contact_ptys .a4 a{font-size:10px;overflow:hidden;width:75px; float:left;display:none}	
 /* .contact_ptys .a4:hover {
 	color:#fff;
-	background-color: #00FF00;
+	background-color: #BB000;
 } */
 		
 .content1_yqlj{
@@ -478,7 +544,7 @@ a:hover .nav {
 	margin-right:20px;
 	float:left}	
 	
-.content1_yqlj li a{color:#595757; position:relative;}
+.content1_yqlj li a{color:#000000; position:relative;}
 .content1_yqlj li a:hover{color:#4997d2; -webkit-transition-duration: 0.2s;}
 
 /**content结束**/
